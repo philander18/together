@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'codeigniter4/appstarter',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '452a5889ff278f48096365a65a7e15578f080942',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,13 +11,19 @@
     ),
     'versions' => array(
         'codeigniter4/appstarter' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '452a5889ff278f48096365a65a7e15578f080942',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'codeigniter4/authentication-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '1.0',
+            ),
         ),
         'codeigniter4/framework' => array(
             'pretty_version' => 'v4.5.1',
@@ -63,6 +69,15 @@
             'install_path' => __DIR__ . '/../myclabs/deep-copy',
             'aliases' => array(),
             'dev_requirement' => true,
+        ),
+        'myth/auth' => array(
+            'pretty_version' => 'v1.2.1',
+            'version' => '1.2.1.0',
+            'reference' => '7d0347faa47bd754d2dc49593a9852800be73986',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../myth/auth',
+            'aliases' => array(),
+            'dev_requirement' => false,
         ),
         'nikic/php-parser' => array(
             'pretty_version' => 'v5.0.2',
